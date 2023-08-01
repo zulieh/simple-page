@@ -16,7 +16,8 @@
         #title {
             color: brown; 
             font-size: xx-large;
-            align-items: center;
+            text-align: center;
+            text-shadow: 10px 10px 10px white;
         }
         /* styling image width and height */
         img {
@@ -25,20 +26,26 @@
         }
         /* styling image caption like size, colour. */
         #caption {
-            color:cornflowerblue;
+            color: burlywood;
             font-size: medium;
+            padding: 20px;
         
         }
         #about {
             background-color: rgb(203, 179, 149);
             box-shadow: 20px 20px 20px rgb(96, 91, 85);
-            padding: 30px;
+            padding: 30px 30px;
             margin: 20px;
+            margin-top: 10px;
+        }
+        #more {
+            text-align: center;
+            padding-top: 20px;
         }
     </style>
 </head>
 <body>
-   <h1 id = "title">Bright Adam!!!</h1>
+   <h1 id = "title">Baby Adam!!!</h1>
    <div id ="photo">
         <img src="images/baby.jpg"  alt="error loading image" />
         <small id ="caption">
@@ -68,6 +75,10 @@
             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
             type and scrambled it to make a type specimen book.
         </p>
+    </div>
+    <div id ="more">
+        <p>for more information <b>click</b> on the button below</p>
+        <button onclick ="window.location.href='https://instagram.com/onizehcapture?igshid=MzRlODBiNWFlZA==';">Explore More</button>
     </div>
 </body>
 </html>
