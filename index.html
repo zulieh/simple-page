@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* styling the body element like background colour and margin */
+        body {
+            background-color: bisque;
+            margin:10%;
+            font-family: fantasy;
+        }
+        /* styling the header title */
+        #title {
+            color: brown; 
+            font-size: xx-large;
+            align-items: center;
+        }
+        /* styling image width and height */
+        img {
+            display: inline-block;
+            width: 100%;
+        }
+        /* styling image caption like size, colour. */
+        #caption {
+            color:cornflowerblue;
+            font-size: medium;
+        
+        }
+    </style>
 </head>
 <body>
-   <h1>Bright Adam!!!</h1>
-   <img src="images/baby.jpg"  width="50%" height="50%"/>
+   <h1 id = "title">Bright Adam!!!</h1>
+   <div id ="photo">
+        <img src="images/baby.jpg"  alt="error loading image" />
+        <small id ="caption">
+            This is the image of Afan who is turning one year ago
+        </small>
+    </div>
 </body>
 </html>
